@@ -1,11 +1,18 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import TodoList from "./components/TodoList";
+import ThemeSwitcher from "./components/ThemeSwitcher";
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Teste</h1>
-    </div>
-  );
+
+
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <TodoList />
+        <ThemeSwitcher />
+      </div>
+    )
+  }
 }
 
 export default App;
