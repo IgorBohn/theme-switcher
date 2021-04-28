@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
-const ThemeSwitcher = () => (
-    <button onClick={() => {}}>Alterar tema</button>
+const ThemeSwitcher = ({ toggleTheme }) => (
+  <button onClick={toggleTheme}>Alterar tema</button>
 );
 
 export default ThemeSwitcher;
